@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        go 'go1.14'
+        go 'go1.16'
     }
     parameters {
         string(name: 'RECIPIENTS', defaultValue: 'wm_7an888@hotmail.com', description: 'Email for the build result')
